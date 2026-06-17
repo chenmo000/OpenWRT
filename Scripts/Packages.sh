@@ -50,10 +50,10 @@ UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-25.12-legacy"
 
 UPDATE_PACKAGE "clashoo" "kenzok8/openwrt-clashoo" "main"
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
-UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
-UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
+#UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
+#UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
-UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main"
+#UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main"
 
 UPDATE_PACKAGE "sing-box" "77160860/OpenWRT" "main" "pkg"
 #UPDATE_PACKAGE "luci-app-store" "linkease/istore" "dev/apk"

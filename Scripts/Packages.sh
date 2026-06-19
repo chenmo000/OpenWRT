@@ -58,7 +58,7 @@ UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "sing-box" "77160860/OpenWRT" "main" "pkg"
 #UPDATE_PACKAGE "luci-app-store" "linkease/istore" "dev/apk"
 UPDATE_PACKAGE "luci-app-store" "linkease/istore" "main"
-#UPDATE_PACKAGE "luci-app-store" "kenzok8/small-package" "main" "pkg"
+UPDATE_PACKAGE "luci-app-socat" "kenzok8/small-package" "main" "pkg"
 #UPDATE_PACKAGE "luci-app-oaf" "destan19/OpenAppFilter" "master"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 

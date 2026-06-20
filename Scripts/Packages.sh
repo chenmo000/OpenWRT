@@ -67,15 +67,24 @@ UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
 UPDATE_PACKAGE "lucky" "sirpdboy/luci-app-lucky" "main"
-
-#UPDATE_PACKAGE "diskman" "lisaac/luci-app-diskman" "master"
-UPDATE_PACKAGE "zerotier" "openwrt/zerotier-openwrt" "master" "" "luci-app-zerotier"
+#分区工具
+UPDATE_PACKAGE "diskman" "lisaac/luci-app-diskman" "master"
+#zerotier
+UPDATE_PACKAGE "zerotier" "rufengsuixing/luci-app-zerotier" "master" 
+#风扇控制器
 UPDATE_PACKAGE "fancontrol" "rockjake/luci-app-fancontrol" "main"
-UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
-UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
-#UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "master" "" "homebox speedtest"
+#仓库清空了
+#UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
+#目前用不上
+#UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
+#仓库清空了
+#UPDATE_PACKAGE "ookla-speedtest" "sirpdboy/netspeedtest" "master" "" "homebox speedtest"
 UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main"
+#分区工具
 UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"
+#透明主题
+UPDATE_PACKAGE "kucat-config" "sirpdboy/luci-app-kucat-config" "master"
+
 #UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"
 #UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 #UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"

@@ -66,6 +66,8 @@ UPDATE_PACKAGE "luci-app-socat" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
+UPDATE_PACKAGE "lucky" "sirpdboy/luci-app-lucky" "main"
+
 #UPDATE_PACKAGE "diskman" "lisaac/luci-app-diskman" "master"
 UPDATE_PACKAGE "zerotier" "openwrt/zerotier-openwrt" "master" "" "luci-app-zerotier"
 UPDATE_PACKAGE "fancontrol" "rockjake/luci-app-fancontrol" "main"

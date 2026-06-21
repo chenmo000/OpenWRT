@@ -48,8 +48,8 @@ UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-25.12-legacy"
 #UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
 #UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
 
-UPDATE_PACKAGE "luci-app-adguardhome" "kenzok8/small-package" "main" "luci-app-adguardhome"
-UPDATE_PACKAGE "luci-app-aliddns" "kenzok8/small-package" "main" "luci-app-aliddns"
+#UPDATE_PACKAGE "luci-app-adguardhome" "kenzok8/small-package" "main" "luci-app-adguardhome"
+#UPDATE_PACKAGE "luci-app-aliddns" "kenzok8/small-package" "main" "luci-app-aliddns"
 
 UPDATE_PACKAGE "clashoo" "kenzok8/openwrt-clashoo" "main"
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
@@ -70,7 +70,7 @@ UPDATE_PACKAGE "lucky" "sirpdboy/luci-app-lucky" "main"
 #分区工具
 UPDATE_PACKAGE "diskman" "lisaac/luci-app-diskman" "master"
 #zerotier
-UPDATE_PACKAGE "zerotier" "rufengsuixing/luci-app-zerotier" "master" 
+#UPDATE_PACKAGE "zerotier" "rufengsuixing/luci-app-zerotier" "master" 
 #风扇控制器
 UPDATE_PACKAGE "fancontrol" "rockjake/luci-app-fancontrol" "main"
 #仓库清空了
@@ -90,7 +90,7 @@ UPDATE_PACKAGE "kucat-config" "sirpdboy/luci-app-kucat-config" "master"
 #UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 #UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
-UPDATE_PACKAGE "dockerman" "lisaac/luci-app-dockerman" "master"
+#UPDATE_PACKAGE "dockerman" "lisaac/luci-app-dockerman" "master"
 
 #更新软件包版本
 UPDATE_VERSION() {

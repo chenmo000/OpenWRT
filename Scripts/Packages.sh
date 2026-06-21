@@ -48,8 +48,12 @@ UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-25.12-legacy"
 #UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
 #UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
 
-#UPDATE_PACKAGE "luci-app-adguardhome" "kenzok8/small-package" "main" "luci-app-adguardhome"
-#UPDATE_PACKAGE "luci-app-aliddns" "kenzok8/small-package" "main" "luci-app-aliddns"
+# 拉取 AdGuardHome
+UPDATE_PACKAGE "luci-app-adguardhome" "kenzok8/small-package" "main" "pkg"
+# 拉取阿里DDNS
+UPDATE_PACKAGE "luci-app-aliddns" "kenzok8/small-package" "main" "pkg"
+# 拉取 Socat
+UPDATE_PACKAGE "luci-app-socat" "kenzok8/small-package" "main" "pkg"
 
 UPDATE_PACKAGE "clashoo" "kenzok8/openwrt-clashoo" "main"
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
@@ -61,9 +65,8 @@ UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "sing-box" "77160860/OpenWRT" "main" "pkg"
 #UPDATE_PACKAGE "luci-app-store" "linkease/istore" "dev/apk"
 UPDATE_PACKAGE "luci-app-store" "linkease/istore" "main"
-UPDATE_PACKAGE "luci-app-socat" "kenzok8/small-package" "main" "pkg"
 #UPDATE_PACKAGE "luci-app-oaf" "destan19/OpenAppFilter" "master"
-UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
+#UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
 UPDATE_PACKAGE "lucky" "sirpdboy/luci-app-lucky" "main"

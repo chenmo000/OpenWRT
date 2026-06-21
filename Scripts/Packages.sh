@@ -49,11 +49,11 @@ UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-25.12-legacy"
 #UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
 
 # 拉取 AdGuardHome
-UPDATE_PACKAGE "luci-app-adguardhome" "kenzok8/small-package" "main" "pkg"
+UPDATE_PACKAGE "luci-app-adguardhome" "kenzok8/small-package" "main" "pkg/adguardhome"
 # 拉取阿里DDNS
-UPDATE_PACKAGE "luci-app-aliddns" "kenzok8/small-package" "main" "pkg"
+UPDATE_PACKAGE "luci-app-aliddns" "kenzok8/small-package" "main" "pkg/aliddns"
 # 拉取 Socat
-UPDATE_PACKAGE "luci-app-socat" "kenzok8/small-package" "main" "pkg"
+UPDATE_PACKAGE "luci-app-socat" "kenzok8/small-package" "main" "pkg/socat"
 
 UPDATE_PACKAGE "clashoo" "kenzok8/openwrt-clashoo" "main"
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"

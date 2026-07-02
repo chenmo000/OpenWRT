@@ -38,15 +38,15 @@ UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
 UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
 
 # 代理 - OpenClash
-UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
+#UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 
 # 应用商店 - iStore
-UPDATE_PACKAGE "istore" "linkease/istore" "main"
+#UPDATE_PACKAGE "istore" "linkease/istore" "main"
 
 # 磁盘管理
 UPDATE_PACKAGE "diskman" "sbwml/luci-app-diskman" "main"
-UPDATE_PACKAGE "diskmanager" "4IceG/luci-app-mini-diskmanager" "main"
-UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"
+#UPDATE_PACKAGE "diskmanager" "4IceG/luci-app-mini-diskmanager" "main"
+#UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"
 
 
 UPDATE_VERSION() {
